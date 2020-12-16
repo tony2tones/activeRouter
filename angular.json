@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "activeRouter"
+    }
+  },
+  "defaultProject": "activeRouter",
+  "cli": {
+    "analytics": false
+  }
 }
