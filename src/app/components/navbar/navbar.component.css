@@ -1,0 +1,40 @@
+.active {
+    font-weight: 600;
+    background-color:blue;
+    color: lightblue;
+}
+
+/* .nav {
+    background-color: rgb(18, 49, 70);
+    width: 100%;
+    height: 60px;
+} */
+.nav ul {
+    align-items: center;
+    display: flex;
+    padding-right: 10px;
+    background-color: rgb(18, 49, 70);
+    width: 100%;
+    height: 60px;
+    /* background-color: blue; */
+}
+ul {
+    list-style-type: none;
+}
+.nav ul li a {
+    /* border: 1px solid white; */
+    color: white;
+    height: 40px;
+    width: 135px;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none; 
+    padding: 10px;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    background-color: lightblue;
+    height: 40px;
+    /* padding: 10px; */
+}
